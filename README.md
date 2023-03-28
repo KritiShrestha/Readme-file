@@ -1,38 +1,36 @@
-# Readme file ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
+# sdf ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-A readme file to provide detailed description of the application to the users
+nbgfd
 
 ## Table of Contents
-Technology Installation usage
+-[Technology] (#technology)
+-[Installation] (#installation)
+-[Usage] (#Usage)
+-[Contributors] (#contributors)
+-[License] (#License)
+-[Test] (#test)
+-[Qustions] (#questions)
+
 ## Technology
-Javascript node js
+jnhgdf
 
 ## Installation
-What are the steps required to install your project? 
-Provide a step-by-step description of how to get the development environment running.
-Install a VS code
+jgdf
 
 ## Usage
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an (assets/images/screenshot.png) folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-
+mdsfi
 
 ## Contribution
-List your collaborators, if any, with links to their GitHub profiles.
-None
+mhgf
 
 ## License
 This application is licensed under the [MIT](https://opensource.org/licenses/MIT) license
 
 ## Tests
-Go extra mile and write tests for your application
+k,kj
 
+## Questions
+You can find me on Github at [kritishresths] (https://github.com/kritishresths)
 
-## Github
-KritiShrestha
-
-## email
-shrkriti07@gmail.com
+Feel free to reach me out at shrkriti07@gmail.com if you have any additional questions
