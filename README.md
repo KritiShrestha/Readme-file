@@ -1,36 +1,37 @@
-# sdf ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
+# sd ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-nbgfd
+sdvf
 
 ## Table of Contents
--[Technology] (#technology)
--[Installation] (#installation)
--[Usage] (#Usage)
--[Contributors] (#contributors)
--[License] (#License)
--[Test] (#test)
--[Qustions] (#questions)
+
+- [Technology](#technology)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [License](#license)
+- [Test](#test)
+- [Qustions](#questions)
 
 ## Technology
-jnhgdf
+vfd
 
 ## Installation
-jgdf
+fg
 
 ## Usage
-mdsfi
+df
 
 ## Contribution
-mhgf
+fdv
 
 ## License
 This application is licensed under the [MIT](https://opensource.org/licenses/MIT) license
 
-## Tests
-k,kj
+## Test
+df
 
 ## Questions
-You can find me on Github at [kritishresths] (https://github.com/kritishresths)
+You can find me on Github at [KritiShrestha] (https://github.com/KritiShrestha)
 
 Feel free to reach me out at shrkriti07@gmail.com if you have any additional questions
