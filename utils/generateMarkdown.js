@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+//  Create a function that returns a license badge based on which license is passed in
 function renderLicenseBadge(license) {
   if (license === "MIT") {
     return "![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)";
@@ -16,11 +15,12 @@ function renderLicenseBadge(license) {
   else if (license === "GNU") {
     return "![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)"
   }
+  // If there is no license, return an empty string
   else
     return "";
 }
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+
+//  Creating a function that returns the license link
 function renderLicenseLink(license) {
   if (license === "MIT") {
     return "https://opensource.org/licenses/MIT";
@@ -37,64 +37,69 @@ function renderLicenseLink(license) {
   else if (license === "GNU") {
     return "https://www.gnu.org/licenses/gpl-3.0"
   }
+  // If there is no license, return an empty string
   else {
     return "";
   }
 }
 
-// TODO: Create a function that returns the license section of README
+// Creating a function that returns the license section of README
 // If there is no license, return an empty string
-
 function renderLicenseSection(license) {
-  const licenseBadge = renderLicenseBadge(license);
   const licenseLink = renderLicenseLink(license);
-  return `This application is licensed under the [${license}](${licenseLink}) license`
+  //Creating a template literals to display contents in a Readme file
+  if(license=== ""){
+    return`
+## License
+No license selected`
+  }
+  else {
+  return `
+## License
+This application is licensed under the [${license}](${licenseLink}) license`
+  }
 }
 
-
-// TODO: Create a function to generate markdown for README
-//function generateMarkdown(data) {
-//return `# ${data.title}
+//  Create a function to generate markdown for README
 function generateMarkdown(data) {
   const badge = renderLicenseBadge(data.license)
-  const licenseSection = renderLicenseSection(data.license) 
+  const licenseSection = renderLicenseSection(data.license)
   return `# ${data.title} ${badge}
 
 ## Description
 ${data.description}
 
 ## Table of Contents
-${data.contents}
+
+- [Technology](#technology)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [License](#license)
+- [Test](#test)
+- [Qustions](#questions)
+
 ## Technology
 ${data.technology}
 
 ## Installation
-What are the steps required to install your project? 
-Provide a step-by-step description of how to get the development environment running.
 ${data.installation}
 
 ## Usage
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an (assets/images/screenshot.png) folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
 ${data.usage}
 
 ## Contribution
-List your collaborators, if any, with links to their GitHub profiles.
-${data.contributors}
-
-## License
+${data.contribution}
 ${licenseSection}
 
-## Tests
-Go extra mile and write tests for your application
+## Test
 ${data.test}
 
-## Github
-${data.username}
+## Questions
+You can find me on Github at [${data.username}](https://github.com/${data.username})
 
-## email
-${data.email}`
+Feel free to reach me out at ${data.email} if you have any additional questions`
 }
+
+//Exporting a generateMarkdown file to index.js
 module.exports = generateMarkdown;
